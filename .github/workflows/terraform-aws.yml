@@ -5,12 +5,12 @@ on:
     branches:
       - main
     paths:
-      - 'aws/**'
-      - '.github/workflows/terraform-aws.yml'
+      - "aws/**"
+      - ".github/workflows/terraform-aws.yml"
   pull_request:
     paths:
-      - 'aws/**'
-      - '.github/workflows/terraform-aws.yml'
+      - "aws/**"
+      - ".github/workflows/terraform-aws.yml"
   workflow_dispatch:
 
 permissions:

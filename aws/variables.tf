@@ -40,12 +40,6 @@ variable "instance_type" {
   default     = "t3.micro"
 }
 
-variable "instance_ami" {
-  description = "AMI ID for the EC2 instance. Set this to a valid AMI in the target region."
-  type        = string
-  default     = "ami-0c02fb55956c7d316"
-}
-
 variable "bucket_name" {
   description = "Name for the S3 bucket. Must be globally unique in AWS."
   type        = string
